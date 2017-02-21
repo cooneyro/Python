@@ -1,4 +1,4 @@
-# Lists manipulation
+# Basic list manipulation
 def p(a_list):
     print(*a_list, sep=" ")
 
