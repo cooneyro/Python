@@ -4,4 +4,3 @@ while c < n:
     print("{i:3} : {n:3}".format(i=c+1, n=a))
     a, b = b, a+b
     c += 1
-
