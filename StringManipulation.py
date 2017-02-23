@@ -1,5 +1,6 @@
-# Manipulating Strings
+# Manipulating String
 
-userin = input("Enter a noun, a verb and an adjective separated by spaces")
+userin = input("Enter a noun, a verb and an adjective separated by spaces\n")
 
-print(userin.split())
+mylist = userin.split()
+print("The {} {}ed over the {} person".format(*mylist))
