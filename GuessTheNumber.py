@@ -14,9 +14,8 @@ while playing:
     guessing = True
     print("Hint: It's between {i:0} and {j:0}".format(i=smallest, j=largest))
     while guessing:
-        guess = input("Guess the integer! Q to quit.\n")
         try:
-            guess = int(guess)
+            guess = int(input("Guess the integer! Q to quit.\n"))
             if guess != x:
                 print("Too high!") if guess > x else print("Too low!")
             else:
