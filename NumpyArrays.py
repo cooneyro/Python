@@ -13,3 +13,6 @@ np_weight = np.array(weight)
 
 bmi = np_weight/np_height ** 2
 print(bmi)
+
+# Subset - print only BMIs > 23
+print(bmi[bmi > 23])
