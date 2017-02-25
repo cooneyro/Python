@@ -20,5 +20,3 @@ p(unique)
 
 words.sort()
 p(list(set(words)))
-
-
